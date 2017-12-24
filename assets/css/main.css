@@ -9,34 +9,7 @@
 
 /* Reset */
 
-.text {
-text-align:  center;
-font-size: 2em;
-color: #484848;
-}
-.text1 {
-text-align: center;
-margin-top: 5%;
-font-size: 1.5em;
-}
 
-p1, h9 {
-	color: #F6F6F6;
-}
-
-h9 {
-	color: #F6F6F6;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	font-weight: 700;
-	line-height: 1em;
-	margin: 0 0 1em 0;
-	text-transform: uppercase;
-}
 
 .One {
 	background-image: url(images/bg.jpg);
@@ -1715,7 +1688,7 @@ h9 {
 		color: #F6F6F6;
 	}
 
-	h1, h2, h3, h4, h5, h6, {
+	h1, h2, h3, h4, h5, h6, h9 {
 		color: #484848;
 		font-weight: 700;
 		line-height: 1em;
@@ -2627,7 +2600,7 @@ h9 {
 	header h5 + p,
 	header h6 + p {
 		font-size: 0.9em;
-		margin-top: 0.6em;
+		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
 
